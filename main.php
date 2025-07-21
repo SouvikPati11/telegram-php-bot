@@ -1,18 +1,18 @@
 <?php
 set_time_limit(600);
 echo "working";
-$token = "6560486266:AAEfFQQpV4tOK9tp0uYZRn2oKmsHQqblDr8";
+$token = "7066062108:AAEvfNpBuBH-OZy4NXRGp-8QDQr2_E7OOAM";
 $data = file_get_contents("php://input");
 $bot = json_decode($data,true);
-$admin = 6388548761;
-$botu = "lucky_otp_bot";
+$admin = 1862385036;
+$botu = "TRXMiningSMHBot";
 $fapi = "16c39e3a2f8880754611sjjsjsdd08750d0";
 $mid = "PJupsY798878030806";
 $sd = "5sim.net";
-$sapi = "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MzA5MTE2MzcsImlhdCI6MTY5OTM3NTYzNywicmF5IjoiZGRmYTY3MGU0Y2YyOTI1NDI2MzIwMDJmNmZiYmU0N2MiLCJzdWIiOjE5NzYxMDh9.c5sLR5dRgQjtffWwr613fbelJzgoPl3WQj9Gv-YXSkfXW7qXhBFwApU4dLnumNJk4cpiB164Ow_-ZepuHN1O5ggmAUshjsnsnsngrl2VOkPSkDpVgSF6es-YkQUkW2I50QlcasCltTSeSVhZBPphO3pEwJRu6FvRcKzKdIonoM8o0rxRtFmgx6RqeahN8nOBQxRGJVX23t65n-OafQBKwhtYNz86UegHHjN3_kD7Ep8jtiTFvQmWFEIjUsFGWZKYnCfHFJAPWZZQnVrtAzSyikBaK9zijXB0IllJzR88GBpsxBFTZX5TdulLHCzz3fwsARrNA1J77hfyloYWHGEy_IA";
-$channel = "lucky_otp";
+$sapi = "eyJhbGciOiJSUzUxMiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3NzY1NjQ0NzUsImlhdCI6MTc0NTAyODQ3NSwicmF5IjoiNGZlMDA5NDNiNGJkZTM0MmU4MmUyZjc2MTgwMzM5YzkiLCJzdWIiOjEzODc4NDl9.IDyzfgHXtn-W9tehRzcLPU6_X9XYxcGYGyia1f689GwLUauCuKwkYKrOCkMIPo9ecYbCBz4_xUupINotD5nXTAs4ALei_B0BT9m7Fedb4oz2T13N3BXrFG8d_MbyZAesLmgFZgxswPXUD1td1rd8rTA1F1fPeOboEOC5qLNgewZirtvA2pKewgnLnZxQTEApWgsuMYwLnvYcH3LVeKaNWs81lwySo2CKsjlSheNsz92SmlHUGWot_Ks6E_DqIjzM7AU9MXc4KeKy8pzOm6zJ7ksbF6IdAjqBlFG_vcHQ69qEWAPLRND4o_an7zo3pxDr8W05vqAHB9Ca2zETkoubtg";
+$channel = "SocialHiker";
 $upi = "shivansh729@paytm";
-$pchannel = "payenmemekdj";//Payment channel 
+$pchannel = "SocialHiker";//Payment channel 
 $trx = "TTDMYfH679wm95mPAFK2EjD6dkBoKAdjbq";
 $qr = "https://graph.org/file/5974db1781cb19fa67d57.jpg";
 $support = "lucky_otp_owner";
